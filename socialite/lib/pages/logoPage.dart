@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:socialite/pages/loginPage.dart';
 
 
 class LogoPage extends StatefulWidget {
@@ -33,25 +34,25 @@ class _LogoPage extends State<LogoPage> {
                           fit: BoxFit.contain,
                         )),
 
-      //             Material(
-      // elevation: 5,
-      // borderRadius: BorderRadius.circular(30),
-      // color: Colors.blue,
-      // child: MaterialButton(
-      //     padding: const EdgeInsets.fromLTRB(20, 15, 20, 15),
-      //     minWidth: MediaQuery.of(context).size.width,
-      //     onPressed: () {
-      //                         Navigator.of(context).pushReplacement(
-      //                 MaterialPageRoute(builder: (context) => const LoginScreen()));
-      //     },
-      //     child: const Text(
-      //       "Login",
-      //       textAlign: TextAlign.center,
-      //       style: TextStyle(
-      //           fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
-      //                       )),
+                  Material(
+      elevation: 5,
+      borderRadius: BorderRadius.circular(30),
+      color: Colors.blue,
+      child: MaterialButton(
+          padding: const EdgeInsets.fromLTRB(20, 15, 20, 15),
+          minWidth: MediaQuery.of(context).size.width,
+          onPressed: () {
+                              Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (context) => const LoginScreen()));
+          },
+          child: const Text(
+            "Login",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
+                            )),
                   
-      //                     ),
+                          ),
 
   
                           ]
